@@ -4,8 +4,7 @@ data class Task(
     val id: Int,
     val title: String,
     val isCompleted: Boolean = false,
-    // 02-kotlin-essentials.md
-    // Challenge 1
+    // 02-kotlin-essentials: Challenge 1
     val priority: Priority = Priority.MEDIUM
 )
 
@@ -15,8 +14,7 @@ enum class Priority {
     HIGH
 }
 
-// 02-kotlin-essentials.md: Challenge 2
+// 02-kotlin-essentials: Challenge 2
 fun describeTask(task: Task) : String {
     return task.title + "-" + task.priority
 }
-
