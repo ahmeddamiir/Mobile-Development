@@ -1,8 +1,9 @@
-# Mobile Development - Task 01
+# Mobile Development UTB
 
-Solutions for Week 1 lab challenges covering Kotlin fundamentals and Jetpack Compose basics.
+## Completed Modules
 
-### Course Information
-* **Institution:** Tomas Bata University in Zlín (UTB)
-* **Lecturer:** Prof. Luis Beltrán
-* **Author:** Ahmed Hassan
+- [x] 01 First App
+- [ ] 03 Activity Lifecycle
+- [ ] 04 Navigation
+- [ ] 05 Manifest Permissions
+- [ ] 06 Image Location Map
