@@ -2,8 +2,8 @@
 
 ## Completed Modules
 
-- [x] 01 First App
-- [ ] 03 Activity Lifecycle
-- [ ] 04 Navigation
-- [ ] 05 Manifest Permissions
-- [ ] 06 Image Location Map
+- [x] First App
+- [ ] Activity Lifecycle
+- [ ] Navigation
+- [ ] Manifest Permissions
+- [ ] Image Location Map
