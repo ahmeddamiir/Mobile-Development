@@ -13,6 +13,7 @@ Android projects, assignments, and challenges completed during the Mobile Develo
 | Navigation | ✅ Not Started |
 | Manifest Permissions | ⬜ Not Started |
 | Image Location Map | ⬜ Not Started |
+| View Model | ⬜ Not Started |
 
 ---
 
