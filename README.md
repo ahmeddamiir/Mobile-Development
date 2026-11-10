@@ -11,7 +11,7 @@ Android projects, assignments, and challenges completed during the Mobile Develo
 | First App | ✅ Completed |
 | Activity Lifecycle | ✅ Completed |
 | Navigation | ✅ Completed |
-| Manifest Permissions | ⬜ Not Started |
+| Manifest Permissions | ✅ Completed |
 | Image Location Map | ⬜ Not Started |
 | View Model | ⬜ Not Started |
 
