@@ -72,13 +72,16 @@ class MainActivity : ComponentActivity() {
         pendingPhone = phoneNumber
         pendingMessage = messageText
 
-        when {
-            ContextCompat.checkSelfPermission(this, Manifest.permission.SEND_SMS)
-                    == PackageManager.PERMISSION_GRANTED -> {
-                sendSms(phoneNumber, messageText)
-            }
-            else -> {
-                requestSmsPermissionLauncher.launch(Manifest.permission.SEND_SMS)
+        // Challenge: Validate if the number is not empty
+        if (pendingPhone.isNotBlank()) {
+            when {
+                ContextCompat.checkSelfPermission(this, Manifest.permission.SEND_SMS)
+                        == PackageManager.PERMISSION_GRANTED -> {
+                    sendSms(phoneNumber, messageText)
+                }
+                else -> {
+                    requestSmsPermissionLauncher.launch(Manifest.permission.SEND_SMS)
+                }
             }
         }
     }
@@ -95,13 +98,16 @@ class MainActivity : ComponentActivity() {
     private fun requestCallPermission(phoneNumber: String) {
         pendingPhone = phoneNumber
 
-        when {
-            ContextCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE)
-                    == PackageManager.PERMISSION_GRANTED -> {
-                callPhone(phoneNumber)
-            }
-            else -> {
-                requestCallPermissionLauncher.launch(Manifest.permission.CALL_PHONE)
+        // Challenge: Validate if the number is not empty
+        if (pendingPhone.isNotBlank()) {
+            when {
+                ContextCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE)
+                        == PackageManager.PERMISSION_GRANTED -> {
+                    callPhone(phoneNumber)
+                }
+                else -> {
+                    requestCallPermissionLauncher.launch(Manifest.permission.CALL_PHONE)
+                }
             }
         }
     }
