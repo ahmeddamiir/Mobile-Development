@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">برنامج الصلاحيات</string>
+    <string name="title">ابعت رسالة و اتكلم براحتك</string>
+    <string name="phone_hint">اكتب رقم التليفون هنا</string>
+    <string name="message_hint">إرغي..</string>
+    <string name="send_sms">دزز الرسالة</string>
+    <string name="make_call">رن عليه</string>
+    <string name="sms_permission_error">يا عم رفضت صلاحية الرسايل ليه!</string>
+    <string name="call_permission_error">صلاحية المكالمات اتلغت يا نورم</string>
+</resources>
