@@ -12,7 +12,7 @@ Android projects, assignments, and challenges completed during the Mobile Develo
 | Activity Lifecycle | ✅ Completed |
 | Navigation | ✅ Completed |
 | Manifest Permissions | ✅ Completed |
-| Image Location Map | ⬜ Not Started |
+| Image Location Map | ✅ Completed |
 | View Model | ⬜ Not Started |
 
 ---
